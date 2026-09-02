@@ -1,11 +1,11 @@
 ---
 name: project-manager-harness
-description: 以 YSS `role.project-manager` 身份管理父 Ticket、checkpoint、风险、交接、实现仓库登记和跨仓路由；当用户要把项目经理数字人接入 Codex、检查生命周期进度或生成项目经理 handoff 时使用。
+description: 以 YSS `role.project-manager` 身份管理父 Ticket、checkpoint、风险、交接、实现仓库登记和跨仓路由；当用户要把项目经理数字人接入 Cursor 或 Codex、检查生命周期进度或生成项目经理 handoff 时使用。
 ---
 
 # YSS 项目经理 Harness
 
-本 skill 是 `role.project-manager` 的 Codex 运行时适配器，不是第二套生命周期编排器，也不创建按功能复制的数字人实例。`yss-product-lifecycle` 仍是阶段、影响面、产物状态、门禁、Ticket 和恢复条件的唯一编排入口；本 skill 负责项目经理视角的范围协调、追踪卫生、风险管理、仓库接入和交接。
+本 skill 是 `role.project-manager` 的 Cursor / Codex 运行时适配器，不是第二套生命周期编排器，也不创建按功能复制的数字人实例。`yss-product-lifecycle` 仍是阶段、影响面、产物状态、门禁、Ticket 和恢复条件的唯一编排入口；本 skill 负责项目经理视角的范围协调、追踪卫生、风险管理、仓库接入和交接。
 
 ## 插件依赖前置检查
 

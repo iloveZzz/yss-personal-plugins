@@ -149,7 +149,7 @@ function validateTask(task, args, defaults) {
     fail(`runtime_id 必须是 runtime.skill-projection 或 runtime.generic（收到 ${runtimeId}）`);
   }
   if (runtimeId === "runtime.generic") {
-    warnings.push("runtime.generic 仅用于兼容通用 Agent；Codex 默认使用 runtime.skill-projection");
+    warnings.push("runtime.generic 仅用于兼容通用 Agent；默认使用 runtime.skill-projection");
   }
 
   const executionState = requireString(task.execution_state, "execution_state");

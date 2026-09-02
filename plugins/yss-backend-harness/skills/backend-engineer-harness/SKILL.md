@@ -1,11 +1,11 @@
 ---
 name: backend-engineer-harness
-description: 以 YSS `role.backend-engineer` 身份组织后端契约、战术设计交接、垂直切片实现、测试和 Fresh Verification；当用户要把 YSS 后端工程师数字人接入 Codex、生成后端任务提示词或执行后端切片时使用。
+description: 以 YSS `role.backend-engineer` 身份组织后端契约、战术设计交接、垂直切片实现、测试和 Fresh Verification；当用户要把 YSS 后端工程师数字人接入 Cursor 或 Codex、生成后端任务提示词或执行后端切片时使用。
 ---
 
 # YSS 后端工程师 Harness
 
-本 skill 是 `role.backend-engineer` 的 Codex 运行时适配器，不是第二套生命周期编排器，也不创建按功能复制的数字人实例。`yss-product-lifecycle` 仍是阶段、影响面、产物状态、门禁、Ticket 和恢复条件的唯一编排入口；本 skill 负责后端工程师视角的契约分析、后端实现、测试和交接。
+本 skill 是 `role.backend-engineer` 的 Cursor / Codex 运行时适配器，不是第二套生命周期编排器，也不创建按功能复制的数字人实例。`yss-product-lifecycle` 仍是阶段、影响面、产物状态、门禁、Ticket 和恢复条件的唯一编排入口；本 skill 负责后端工程师视角的契约分析、后端实现、测试和交接。
 
 ## 插件依赖前置检查
 
@@ -18,7 +18,7 @@ description: 以 YSS `role.backend-engineer` 身份组织后端契约、战术�
 1. 定位目标项目 Git 根目录，读取 `yss-project.yaml`。文件缺失、schema 不支持或 `repository_mode` 非法时，返回身份迁移阻塞。
 2. 读取目标项目根目录的 `CONTEXT.md`，沿用稳定术语；不要把实现细节、类名或平台名称写成业务词。
 3. 读取 `docs/agents/digital-human-roles.yaml`，通过 `taskPackageDefaults("role.backend-engineer")` 获取当前 `stages`、`core_skills`、`forbidden_skills` 和可起草产物。任务包和正式输出禁止手写另一套技能清单。
-4. 读取 `docs/agents/yss-skill-registry.yaml` 与 `skills-lock.json`，确认技能身份、成熟度、别名、hash 和投影状态。共享技能权威是目标仓库 `.agents/skills`，Codex 通过 `runtime.skill-projection` 使用投影。
+4. 读取 `docs/agents/yss-skill-registry.yaml` 与 `skills-lock.json`，确认技能身份、成熟度、别名、hash 和投影状态。共享技能权威是目标仓库 `.agents/skills`，运行时通过 `runtime.skill-projection` 使用投影。
 5. 对 `project-instance` 读取生命周期注册表、实现仓库登记、父 Ticket、Slice Implementation Contract 和当前 checkpoint；对 `template-source` 只执行模板维护路由，不生成具体产品 Spec、OpenAPI 或切片 Ticket。
 
 ## 角色绑定与能力地图

@@ -1,11 +1,11 @@
 ---
 name: product-manager-harness
-description: 以 YSS `role.product-manager` 身份组织产品优先级、范围、产品设计影响、交互状态、原型确认和商业约束；当用户要把产品经理数字人接入 Codex、审查 Spec / 原型、进行产品决策 grilling 或生成产品经理交接包时使用。
+description: 以 YSS `role.product-manager` 身份组织产品优先级、范围、产品设计影响、交互状态、原型确认和商业约束；当用户要把产品经理数字人接入 Cursor 或 Codex、审查 Spec / 原型、进行产品决策 grilling 或生成产品经理交接包时使用。
 ---
 
 # YSS 产品经理 Harness
 
-本 skill 是 `role.product-manager` 的 Codex 运行时适配器，不是第二套生命周期编排器，也不创建按功能复制的数字人实例。`yss-product-lifecycle` 仍是阶段、影响面、产物状态、门禁、Ticket 和恢复条件的唯一编排入口；本 skill 负责产品经理视角的分析、起草和交接。
+本 skill 是 `role.product-manager` 的 Cursor / Codex 运行时适配器，不是第二套生命周期编排器，也不创建按功能复制的数字人实例。`yss-product-lifecycle` 仍是阶段、影响面、产物状态、门禁、Ticket 和恢复条件的唯一编排入口；本 skill 负责产品经理视角的分析、起草和交接。
 
 ## 插件依赖前置检查
 

@@ -1,11 +1,11 @@
 ---
 name: requirements-manager-harness
-description: 以 YSS `role.requirements-manager` 身份组织 Discovery 语言、领域建模、事实研究、范围决策、成功标准、测试 seam 和 Spec 正文；当用户要把需求经理数字人接入 Codex、澄清需求、进行 requirements grilling 或起草 Spec 时使用。
+description: 以 YSS `role.requirements-manager` 身份组织 Discovery 语言、领域建模、事实研究、范围决策、成功标准、测试 seam 和 Spec 正文；当用户要把需求经理数字人接入 Cursor 或 Codex、澄清需求、进行 requirements grilling 或起草 Spec 时使用。
 ---
 
 # YSS 需求经理 Harness
 
-本 skill 是 `role.requirements-manager` 的 Codex 运行时适配器，不是第二套生命周期编排器，也不创建按功能复制的数字人实例。`yss-product-lifecycle` 仍是阶段、影响面、产物状态、门禁、Ticket 和恢复条件的唯一编排入口；本 skill 负责需求经理视角的事实调查、需求澄清、领域语言、Discovery 与 Spec 起草和交接。
+本 skill 是 `role.requirements-manager` 的 Cursor / Codex 运行时适配器，不是第二套生命周期编排器，也不创建按功能复制的数字人实例。`yss-product-lifecycle` 仍是阶段、影响面、产物状态、门禁、Ticket 和恢复条件的唯一编排入口；本 skill 负责需求经理视角的事实调查、需求澄清、领域语言、Discovery 与 Spec 起草和交接。
 
 ## 插件依赖前置检查
 

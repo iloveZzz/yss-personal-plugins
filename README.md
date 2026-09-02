@@ -1,6 +1,11 @@
 # YSS Personal Plugins
 
-本仓库收录个人维护的 Codex 插件包。每个 `plugins/<plugin-name>/` 目录都是一个可独立加载的插件根目录，包含 `.codex-plugin/plugin.json` 及其技能、脚本。插件依赖声明位于 `.yss-plugin/dependencies.yaml`。
+本仓库收录个人维护的 YSS 角色 Harness 插件。每个 `plugins/<plugin-name>/` 目录都是一个可独立加载的插件根目录：
+
+- Codex：`.codex-plugin/plugin.json`
+- Cursor：`.cursor-plugin/plugin.json`，并由仓库根目录 `.cursor-plugin/marketplace.json` 汇总
+
+插件依赖声明位于 `.yss-plugin/dependencies.yaml`。
 
 ## 插件列表
 
@@ -13,9 +18,15 @@
 | `yss-requirements-manager` | YSS 需求经理 Harness：Discovery、领域语言、需求澄清与 Spec 起草 |
 | `yss-test-engineer-harness` | YSS 测试工程师 Harness：测试、缺陷诊断、独立审查与 Fresh Verification |
 
-## 使用
+## Cursor 使用
 
-按 Codex 插件加载方式选择某个 `plugins/<plugin-name>/` 目录作为插件根目录。插件的版本和展示元数据以对应目录下的 `.codex-plugin/plugin.json` 为准。
+本仓库是 Cursor 多插件市场：根目录 `.cursor-plugin/marketplace.json` 列出全部插件，`metadata.pluginRoot` 为 `plugins`。
+
+在 Cursor 中把本仓库添加为插件源后，可按需安装单个角色插件。每个插件仍以 `plugins/<plugin-name>/.cursor-plugin/plugin.json` 为准，技能在 `skills/`，Cursor 命令在 `commands/`。后端插件额外提供 `agents/yss-backend-engineer.md`。
+
+## Codex 使用
+
+按 Codex 插件加载方式选择某个 `plugins/<plugin-name>/` 目录作为插件根目录。Codex 版本和展示元数据以对应目录下的 `.codex-plugin/plugin.json` 为准。
 
 这些插件依赖目标项目中的 YSS 上下文、角色注册表和生命周期资产；使用前请确保目标项目具备相应文件，并遵循插件自身 `SKILL.md` 中的前置检查与边界。
 

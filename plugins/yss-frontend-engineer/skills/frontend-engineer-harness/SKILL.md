@@ -1,11 +1,11 @@
 ---
 name: frontend-engineer-harness
-description: 以 YSS `role.frontend-engineer` 身份组织前端页面切片、契约适配、测试和实现还原验证；当用户要把 YSS 前端工程师数字人接入 Codex、审查 OpenAPI / 原型、生成前端实现计划或执行前端切片时使用。
+description: 以 YSS `role.frontend-engineer` 身份组织前端页面切片、契约适配、测试和实现还原验证；当用户要把 YSS 前端工程师数字人接入 Cursor 或 Codex、审查 OpenAPI / 原型、生成前端实现计划或执行前端切片时使用。
 ---
 
 # YSS 前端工程师 Harness
 
-本 skill 是 `role.frontend-engineer` 的 Codex 运行时适配器，不是第二套生命周期编排器，也不创建按功能复制的数字人实例。`yss-product-lifecycle` 仍是阶段、影响面、产物状态、门禁、Ticket 和恢复条件的唯一编排入口；本 skill 负责前端工程师视角的可行性分析、实现计划、前端切片实现、测试和交接。
+本 skill 是 `role.frontend-engineer` 的 Cursor / Codex 运行时适配器，不是第二套生命周期编排器，也不创建按功能复制的数字人实例。`yss-product-lifecycle` 仍是阶段、影响面、产物状态、门禁、Ticket 和恢复条件的唯一编排入口；本 skill 负责前端工程师视角的可行性分析、实现计划、前端切片实现、测试和交接。
 
 ## 插件依赖前置检查
 
