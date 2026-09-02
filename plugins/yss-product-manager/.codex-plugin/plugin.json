@@ -1,0 +1,22 @@
+{
+  "name": "yss-product-manager",
+  "version": "0.1.0",
+  "description": "面向 YSS 生命周期的产品经理数字人 Harness，组织优先级、产品设计影响、交互状态和商业约束。",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YSS 产品经理 Harness",
+    "shortDescription": "按 YSS 角色契约执行产品经理分析与交接。",
+    "longDescription": "读取项目身份、上下文、生命周期注册表和产品经理角色配置，组织优先级、范围、产品设计影响、交互说明、状态矩阵、原型确认建议及商业约束；不复制生命周期编排器，也不替代门禁会签或生物人发布裁决。",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "按当前 YSS 上下文做产品经理入口分诊，列出优先级、范围和未决决策。",
+      "审查当前 Spec 的产品设计影响，生成交互说明、状态矩阵和原型确认建议。",
+      "对当前功能进行产品经理 grilling：区分事实与决策，逐轮收敛并输出交接包。"
+    ]
+  }
+}

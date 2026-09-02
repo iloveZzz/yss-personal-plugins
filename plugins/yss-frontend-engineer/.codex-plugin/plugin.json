@@ -1,0 +1,22 @@
+{
+  "name": "yss-frontend-engineer",
+  "version": "0.1.0",
+  "description": "面向 YSS 生命周期的前端工程师数字人 Harness，组织前端切片实现与验证。",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YSS 前端工程师 Harness",
+    "shortDescription": "按 YSS 角色契约执行前端分析、实现与验证。",
+    "longDescription": "作为 role.frontend-engineer 的 Codex 运行时适配器，读取项目身份、上下文、角色注册表和当前 Slice Contract，组织原型可行性、客户端契约适配、Vue 页面切片、前端测试、视觉还原与 pnpm 验证；不复制生命周期编排器，不 Freeze API，不负责后端领域，也不替代独立审查或生物人发布裁决。",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "按前端工程师角色做入口分诊，列出阻塞与所需上游证据。",
+      "根据当前 Slice Contract 生成前端实现计划并执行 Vue 切片。",
+      "验证前端实现的状态、视觉、console 与 pnpm 证据并交接。"
+    ]
+  }
+}

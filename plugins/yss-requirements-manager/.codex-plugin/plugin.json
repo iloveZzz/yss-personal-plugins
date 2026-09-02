@@ -1,0 +1,22 @@
+{
+  "name": "yss-requirements-manager",
+  "version": "0.1.0",
+  "description": "面向 YSS 生命周期的需求经理数字人 Harness，组织 Discovery 语言、用户/MVP/非目标、成功标准、测试 seam 与 Spec 正文。",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YSS 需求经理 Harness",
+    "shortDescription": "按 YSS 需求经理角色澄清、建模并起草 Spec。",
+    "longDescription": "作为 role.requirements-manager 的 Codex 运行时适配器，读取项目身份、CONTEXT.md、生命周期注册表和角色配置，组织 Discovery 与 Spec 阶段的需求澄清、领域建模、事实研究、范围决策、验收标准和测试 seam；不复制生命周期编排器，不冻结原型或 OpenAPI，不写生产代码。",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "按需求经理角色做入口分诊，列出事实、决策、范围和阻塞项。",
+      "对当前需求进行 requirements grilling，逐轮收敛并维护稳定术语。",
+      "根据已确认的 Discovery 内容起草 Spec 结构和测试 seam，交回主控会签。"
+    ]
+  }
+}

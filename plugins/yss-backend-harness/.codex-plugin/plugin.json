@@ -1,0 +1,18 @@
+{
+  "name": "yss-backend-harness",
+  "version": "0.2.0+codex.20260902111226",
+  "description": "\u4ee5 role.backend-engineer \u8eab\u4efd\u7f16\u6392 YSS \u540e\u7aef\u5951\u7ea6\u3001\u5782\u76f4\u5207\u7247\u5b9e\u73b0\u4e0e Fresh Verification\u3002",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YSS \u540e\u7aef\u5de5\u7a0b\u5e08 Harness",
+    "shortDescription": "\u4ee5 role.backend-engineer \u8eab\u4efd\u7f16\u6392\u540e\u7aef\u5951\u7ea6\u3001\u5b9e\u73b0\u4e0e\u9a8c\u8bc1\u3002",
+    "longDescription": "\u4ece\u76ee\u6807\u4ed3\u5e93\u52a8\u6001\u8bfb\u53d6\u540e\u7aef\u89d2\u8272\u6280\u80fd\uff0c\u6821\u9a8c\u4efb\u52a1\u5408\u540c\u3001OpenAPI / \u6570\u636e\u8fb9\u754c\u548c\u5141\u8bb8\u5199\u8def\u5f84\uff0c\u5e76\u751f\u6210\u53d7 behavior-tdd \u7ea6\u675f\u7684 Codex \u540e\u7aef\u4efb\u52a1\u3002",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "\u8bf7\u8bfb\u53d6\u5f53\u524d YSS \u4efb\u52a1\u5305\u548c Slice Contract\uff0c\u6309 role.backend-engineer \u751f\u6210\u6216\u6267\u884c\u540e\u7aef\u4efb\u52a1\u3002"
+  }
+}

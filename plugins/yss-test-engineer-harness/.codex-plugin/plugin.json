@@ -1,0 +1,22 @@
+{
+  "name": "yss-test-engineer-harness",
+  "version": "0.1.0",
+  "description": "YSS 测试工程师数字人 harness：负责测试代码、缺陷诊断、独立审查和 Fresh Verification。",
+  "author": {
+    "name": "YSS Engineering"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YSS 测试工程师",
+    "shortDescription": "执行 YSS 测试、缺陷诊断与独立验证。",
+    "longDescription": "将 role.test-engineer 适配到 Codex runtime.skill-projection。插件只提供角色行为与检查清单；技能闭包、任务包、门禁和写入范围仍以 YSS 权威注册表及生命周期编排器为准。",
+    "developerName": "YSS Engineering",
+    "category": "Productivity",
+    "capabilities": ["Test", "Review", "Verify"],
+    "defaultPrompt": [
+      "验证当前垂直切片并给出 Fresh Verification 证据。",
+      "审查当前实现 diff，按 YSS 规则记录 findings。",
+      "复现并定位缺陷，给出最小可验证修复建议。"
+    ]
+  }
+}

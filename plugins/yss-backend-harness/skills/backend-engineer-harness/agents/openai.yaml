@@ -1,0 +1,4 @@
+interface:
+  display_name: "YSS 后端工程师 Harness"
+  short_description: "以 role.backend-engineer 身份编排后端契约、实现与验证。"
+  default_prompt: "请读取当前 YSS 任务包和 Slice Contract，按 role.backend-engineer 生成或执行后端任务。"

@@ -1,0 +1,22 @@
+{
+  "name": "yss-project-manager",
+  "version": "0.1.0",
+  "description": "面向 YSS 生命周期的项目经理数字人 Harness，组织父 Ticket、风险、交接、实现仓库登记与跨仓路由。",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YSS 项目经理 Harness",
+    "shortDescription": "按 YSS 项目经理角色管理 Ticket、风险与交接。",
+    "longDescription": "作为 role.project-manager 的 Codex 运行时适配器，读取项目身份、上下文、生命周期和数字人角色注册表，维护父 Ticket 与 checkpoint，登记实现仓库，组织跨仓路由和结构化 handoff；不复制生命周期编排器，不设置 ready-for-agent，不批准 Spec/OpenAPI，不写生产代码。",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "按项目经理角色检查当前父 Ticket、阶段、风险和阻塞项。",
+      "登记实现仓库并检查跨仓库切片的范围、顺序和回滚点。",
+      "为下一工作单元生成带证据要求的 YSS handoff 交接包。"
+    ]
+  }
+}
