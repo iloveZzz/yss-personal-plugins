@@ -1,0 +1,13 @@
+{
+  "name": "yss-product-manager",
+  "version": "0.1.0+cursor.20260902",
+  "description": "面向 YSS 生命周期的产品经理 Harness：范围、优先级、交互状态与商业约束。",
+  "author": {
+    "name": "Local developer"
+  },
+  "license": "MIT",
+  "keywords": ["yss", "product", "harness"],
+  "repository": "https://github.com/iloveZzz/yss-personal-plugins",
+  "skills": "./skills/",
+  "commands": "./commands/"
+}

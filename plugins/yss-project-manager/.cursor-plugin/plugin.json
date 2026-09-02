@@ -1,0 +1,13 @@
+{
+  "name": "yss-project-manager",
+  "version": "0.1.0+cursor.20260902",
+  "description": "面向 YSS 生命周期的项目经理 Harness：父 Ticket、风险、交接与实现仓路由。",
+  "author": {
+    "name": "Local developer"
+  },
+  "license": "MIT",
+  "keywords": ["yss", "project", "harness"],
+  "repository": "https://github.com/iloveZzz/yss-personal-plugins",
+  "skills": "./skills/",
+  "commands": "./commands/"
+}

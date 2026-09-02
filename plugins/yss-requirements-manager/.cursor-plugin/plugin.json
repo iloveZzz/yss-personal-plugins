@@ -1,0 +1,13 @@
+{
+  "name": "yss-requirements-manager",
+  "version": "0.1.0+cursor.20260902",
+  "description": "面向 YSS 生命周期的需求经理 Harness：Discovery、领域语言、需求澄清与 Spec 起草。",
+  "author": {
+    "name": "Local developer"
+  },
+  "license": "MIT",
+  "keywords": ["yss", "requirements", "harness"],
+  "repository": "https://github.com/iloveZzz/yss-personal-plugins",
+  "skills": "./skills/",
+  "commands": "./commands/"
+}

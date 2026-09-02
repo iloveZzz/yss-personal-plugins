@@ -1,0 +1,14 @@
+{
+  "name": "yss-backend-harness",
+  "version": "0.2.0+cursor.20260902",
+  "description": "以 role.backend-engineer 身份编排 YSS 后端契约、垂直切片实现与 Fresh Verification。",
+  "author": {
+    "name": "Local developer"
+  },
+  "license": "MIT",
+  "keywords": ["yss", "backend", "harness", "tdd"],
+  "repository": "https://github.com/iloveZzz/yss-personal-plugins",
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "commands": "./commands/"
+}

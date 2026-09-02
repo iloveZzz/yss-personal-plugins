@@ -1,0 +1,84 @@
+{
+  "name": "yss-personal",
+  "owner": {
+    "name": "YSS"
+  },
+  "metadata": {
+    "description": "个人维护的 YSS 生命周期 Cursor 插件包：角色 Harness skill、命令与依赖声明。",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "yss-backend-harness",
+      "source": "yss-backend-harness",
+      "description": "以 role.backend-engineer 身份编排 YSS 后端契约、垂直切片实现与 Fresh Verification。",
+      "version": "0.2.0+cursor.20260902",
+      "author": {
+        "name": "Local developer"
+      },
+      "license": "MIT",
+      "category": "Developer Tools",
+      "keywords": ["yss", "backend", "harness", "tdd"]
+    },
+    {
+      "name": "yss-frontend-engineer",
+      "source": "yss-frontend-engineer",
+      "description": "面向 YSS 生命周期的前端工程师 Harness：前端切片实现与验证。",
+      "version": "0.1.0+cursor.20260902",
+      "author": {
+        "name": "Local developer"
+      },
+      "license": "MIT",
+      "category": "Developer Tools",
+      "keywords": ["yss", "frontend", "vue", "harness"]
+    },
+    {
+      "name": "yss-product-manager",
+      "source": "yss-product-manager",
+      "description": "面向 YSS 生命周期的产品经理 Harness：范围、优先级、交互状态与商业约束。",
+      "version": "0.1.0+cursor.20260902",
+      "author": {
+        "name": "Local developer"
+      },
+      "license": "MIT",
+      "category": "Productivity",
+      "keywords": ["yss", "product", "harness"]
+    },
+    {
+      "name": "yss-project-manager",
+      "source": "yss-project-manager",
+      "description": "面向 YSS 生命周期的项目经理 Harness：父 Ticket、风险、交接与实现仓路由。",
+      "version": "0.1.0+cursor.20260902",
+      "author": {
+        "name": "Local developer"
+      },
+      "license": "MIT",
+      "category": "Productivity",
+      "keywords": ["yss", "project", "harness"]
+    },
+    {
+      "name": "yss-requirements-manager",
+      "source": "yss-requirements-manager",
+      "description": "面向 YSS 生命周期的需求经理 Harness：Discovery、领域语言、需求澄清与 Spec 起草。",
+      "version": "0.1.0+cursor.20260902",
+      "author": {
+        "name": "Local developer"
+      },
+      "license": "MIT",
+      "category": "Productivity",
+      "keywords": ["yss", "requirements", "harness"]
+    },
+    {
+      "name": "yss-test-engineer-harness",
+      "source": "yss-test-engineer-harness",
+      "description": "YSS 测试工程师 Harness：测试、缺陷诊断、独立审查与 Fresh Verification。",
+      "version": "0.1.0+cursor.20260902",
+      "author": {
+        "name": "YSS Engineering"
+      },
+      "license": "MIT",
+      "category": "Developer Tools",
+      "keywords": ["yss", "test", "review", "harness"]
+    }
+  ]
+}

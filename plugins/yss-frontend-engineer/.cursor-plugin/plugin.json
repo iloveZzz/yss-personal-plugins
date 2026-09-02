@@ -1,0 +1,13 @@
+{
+  "name": "yss-frontend-engineer",
+  "version": "0.1.0+cursor.20260902",
+  "description": "面向 YSS 生命周期的前端工程师 Harness：前端切片实现与验证。",
+  "author": {
+    "name": "Local developer"
+  },
+  "license": "MIT",
+  "keywords": ["yss", "frontend", "vue", "harness"],
+  "repository": "https://github.com/iloveZzz/yss-personal-plugins",
+  "skills": "./skills/",
+  "commands": "./commands/"
+}

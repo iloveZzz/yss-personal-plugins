@@ -1,0 +1,13 @@
+{
+  "name": "yss-test-engineer-harness",
+  "version": "0.1.0+cursor.20260902",
+  "description": "YSS 测试工程师 Harness：测试、缺陷诊断、独立审查与 Fresh Verification。",
+  "author": {
+    "name": "YSS Engineering"
+  },
+  "license": "MIT",
+  "keywords": ["yss", "test", "review", "harness"],
+  "repository": "https://github.com/iloveZzz/yss-personal-plugins",
+  "skills": "./skills/",
+  "commands": "./commands/"
+}
