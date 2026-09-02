@@ -1,0 +1,80 @@
+{
+  "name": "yss-personal",
+  "interface": {
+    "displayName": "YSS Personal Plugins"
+  },
+  "plugins": [
+    {
+      "name": "yss-backend-harness",
+      "source": {
+        "source": "local",
+        "path": "./plugins/yss-backend-harness"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "yss-frontend-engineer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/yss-frontend-engineer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "yss-product-manager",
+      "source": {
+        "source": "local",
+        "path": "./plugins/yss-product-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "yss-project-manager",
+      "source": {
+        "source": "local",
+        "path": "./plugins/yss-project-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "yss-requirements-manager",
+      "source": {
+        "source": "local",
+        "path": "./plugins/yss-requirements-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "yss-test-engineer-harness",
+      "source": {
+        "source": "local",
+        "path": "./plugins/yss-test-engineer-harness"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
