@@ -1,0 +1,4 @@
+{
+  "name": "YSS Personal Plugins",
+  "install": "node --version && node .cursor/validate-plugins.mjs"
+}
