@@ -1,6 +1,6 @@
 # YSS Personal Plugins
 
-本仓库收录个人维护的 Codex 插件包。每个 `plugins/<plugin-name>/` 目录都是一个可独立加载的插件根目录，包含 `.codex-plugin/plugin.json` 及其技能、脚本。
+本仓库收录个人维护的 Codex 插件包。每个 `plugins/<plugin-name>/` 目录都是一个可独立加载的插件根目录，包含 `.codex-plugin/plugin.json` 及其技能、脚本。插件依赖声明位于 `.yss-plugin/dependencies.yaml`。
 
 ## 插件列表
 
@@ -18,3 +18,9 @@
 按 Codex 插件加载方式选择某个 `plugins/<plugin-name>/` 目录作为插件根目录。插件的版本和展示元数据以对应目录下的 `.codex-plugin/plugin.json` 为准。
 
 这些插件依赖目标项目中的 YSS 上下文、角色注册表和生命周期资产；使用前请确保目标项目具备相应文件，并遵循插件自身 `SKILL.md` 中的前置检查与边界。
+
+## 技能依赖边界
+
+插件安装会提供 `plugin.json` 声明的角色 Harness skill，但不会把目标项目的共享 YSS skill 复制到项目中。共享 skill 仍由目标项目 `.agents/skills` 维护，并由 `docs/agents/yss-skill-registry.yaml`、`skills-lock.json` 和投影目录共同校验。
+
+`.yss-plugin/dependencies.yaml` 只声明所需的角色契约和最低版本，不复制 `core_skills`。插件在调用前检查目标项目身份、角色契约和技能投影；缺失或漂移时返回 `blocked`，并路由到目标项目技能维护流程。插件不会自动下载、覆盖或写入目标项目技能。

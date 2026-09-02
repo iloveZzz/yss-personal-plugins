@@ -1,0 +1,6 @@
+schema_version: 1
+plugin: yss-project-manager
+requires:
+  - role_id: role.project-manager
+    registry: docs/agents/digital-human-roles.yaml
+    minimum_contract_version: 1

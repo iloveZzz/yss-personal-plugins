@@ -1,0 +1,6 @@
+schema_version: 1
+plugin: yss-test-engineer-harness
+requires:
+  - role_id: role.test-engineer
+    registry: docs/agents/digital-human-roles.yaml
+    minimum_contract_version: 1

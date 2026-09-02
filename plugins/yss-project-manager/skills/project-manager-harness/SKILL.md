@@ -7,6 +7,10 @@ description: 以 YSS `role.project-manager` 身份管理父 Ticket、checkpoint�
 
 本 skill 是 `role.project-manager` 的 Codex 运行时适配器，不是第二套生命周期编排器，也不创建按功能复制的数字人实例。`yss-product-lifecycle` 仍是阶段、影响面、产物状态、门禁、Ticket 和恢复条件的唯一编排入口；本 skill 负责项目经理视角的范围协调、追踪卫生、风险管理、仓库接入和交接。
 
+## 插件依赖前置检查
+
+调用前读取插件根目录 `.yss-plugin/dependencies.yaml`，并校验目标项目 `yss-project.yaml`、`docs/agents/digital-human-roles.yaml` 的 `contract_version`、`docs/agents/yss-skill-registry.yaml`、`skills-lock.json` 和 `runtime.skill-projection`。缺失、版本不兼容、来源/hash 漂移或投影不完整时返回结构化 `blocked`，不得自动安装、覆盖或修改目标项目技能；修复路由为 `install-or-sync-target-project-skills`。
+
 ## 启动检查
 
 每次处理项目请求时按以下顺序读取；缺失、不一致或无法读取时停止并返回 `blocked`，不得靠猜测补齐：

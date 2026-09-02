@@ -1,0 +1,6 @@
+schema_version: 1
+plugin: yss-backend-harness
+requires:
+  - role_id: role.backend-engineer
+    registry: docs/agents/digital-human-roles.yaml
+    minimum_contract_version: 1

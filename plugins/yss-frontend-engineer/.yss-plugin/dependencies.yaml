@@ -1,0 +1,6 @@
+schema_version: 1
+plugin: yss-frontend-engineer
+requires:
+  - role_id: role.frontend-engineer
+    registry: docs/agents/digital-human-roles.yaml
+    minimum_contract_version: 1
